@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# PDF (large file, downloadable from source)
+*.pdf
+
+# ChromaDB local databases
+chroma_naive/
+chroma_parent/
+chroma_rerank/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
